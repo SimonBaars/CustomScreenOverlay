@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Custom Screen Overlay</string>
+    <string name="overlay_message_hint">Enter your motivational message</string>
+    <string name="text_size_label">Text Size</string>
+    <string name="text_color_label">Text Color</string>
+    <string name="position_label">Position</string>
+    <string name="start_overlay">Start Overlay</string>
+    <string name="stop_overlay">Stop Overlay</string>
+    <string name="overlay_running">Overlay is running</string>
+    <string name="overlay_stopped">Overlay is stopped</string>
+    <string name="permission_required">Overlay permission is required</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="default_message">You are amazing! Keep going!</string>
+    <string name="x_position">X Position</string>
+    <string name="y_position">Y Position</string>
+    <string name="overlay_service_notification">Screen overlay is active</string>
+</resources>
