@@ -4,7 +4,27 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <!-- Layered screen effect with text overlay representation -->
+    
+    <!-- Back layer - represents screen -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M28,32 h52 v44 h-52 z"/>
+    
+    <!-- Text lines on overlay -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M30,40 L78,40 L78,44 L30,44 Z M30,52 L78,52 L78,56 L30,56 Z M30,64 L78,64 L78,68 L30,68 Z"/>
+        android:pathData="M34,42 h40 v3 h-40 z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,50 h32 v3 h-32 z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,58 h36 v3 h-36 z"/>
+    
+    <!-- Small "A" character to emphasize text/typography theme -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M50,62 L54,72 M54,72 L58,62 M51,68 L57,68"/>
 </vector>
